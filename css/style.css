@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: 80%;
+    width: 40%;
     height: 80vh;
     /* border: 1px solid black; */
     margin: 1em auto;
@@ -58,3 +58,10 @@
     background-color:#be0aff;
 }
 
+
+@media(max-width: 760px) {
+    .container{
+        width: 100%; 
+    }
+    
+}
